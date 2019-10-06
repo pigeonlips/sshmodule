@@ -70,7 +70,7 @@ Function Select-Ssh {
     
     }
 
-    $SshModuleConfig | ? { ($_.port -match $port) -and ($_.address -match $address) -and ($_.label -match $label) } #| select id , label , address , port
+    $SshModuleConfig | ? { ($_.id -match $id) -and ($_.port -match $port) -and ($_.address -match $address) -and ($_.label -match $label) } #| select id , label , address , port
 
   } End {
     
