@@ -1,0 +1,110 @@
+{
+    "ssh_location":  "ssh.exe",
+    "hosts":  [
+                  {
+                      "address":  "chc01d1ddos01",
+                      "port":  "22",
+                      "label":  "chc01d1ddos01",
+                      "BackColor":  "black",
+                      "ForeColor":  "white"
+                  },
+                  {
+                      "address":  "CHC01D1DHOST02",
+                      "port":  "22",
+                      "label":  "CHC01D1DHOST02",
+                      "BackColor":  "black",
+                      "ForeColor":  "white"
+                  },
+                  {
+                      "address":  "10.4.28.116 ",
+                      "port":  "22",
+                      "label":  "CHC01D1RSA01.boardbooks.com ",
+                      "BackColor":  "black",
+                      "ForeColor":  "white"
+                  },
+                  {
+                      "address":  "chc01q1dhost01",
+                      "port":  "22",
+                      "label":  "chc01q1dhost01 - docker",
+                      "BackColor":  "black",
+                      "ForeColor":  "white"
+                  },
+                  {
+                      "address":  "chc01q1pecns11.bb2qa.local",
+                      "port":  "22",
+                      "label":  "chc01q1pecns11.bb2qa.local",
+                      "BackColor":  "black",
+                      "ForeColor":  "white"
+                  },
+                  {
+                      "address":  "10.4.28.27",
+                      "port":  "22",
+                      "label":  "chc01q1qastdoc1",
+                      "BackColor":  "black",
+                      "ForeColor":  "white"
+                  },
+                  {
+                      "address":  "10.4.28.26",
+                      "port":  "22",
+                      "label":  "chc01q1qastdoc2",
+                      "BackColor":  "black",
+                      "ForeColor":  "white"
+                  },
+                  {
+                      "address":  "ian@10.4.2.206",
+                      "port":  "22",
+                      "label":  "chc-imay-depoebay",
+                      "BackColor":  "darkcyan",
+                      "ForeColor":  "white"
+                  },
+                  {
+                      "address":  "ian@10.4.2.126",
+                      "port":  "22",
+                      "label":  "chc-imay-tumbleweed",
+                      "BackColor":  "darkgreen",
+                      "ForeColor":  "white"
+                  },
+                  {
+                      "address":  "10.4.2.204",
+                      "port":  "22",
+                      "label":  "kubectl",
+                      "BackColor":  "black",
+                      "ForeColor":  "white"
+                  },
+                  {
+                      "address":  "10.4.2.135",
+                      "port":  "22",
+                      "label":  "kubic",
+                      "BackColor":  "black",
+                      "ForeColor":  "white"
+                  },
+                  {
+                      "address":  "mon-nz.msohosting.local",
+                      "port":  "22",
+                      "label":  "mon-nz.msohosting.local",
+                      "BackColor":  "black",
+                      "ForeColor":  "white"
+                  },
+                  {
+                      "address":  "chc01q1pemdb11.bb2qa.local",
+                      "port":  "22",
+                      "label":  "PuppetDB2016",
+                      "BackColor":  "yellow",
+                      "ForeColor":  "black"
+                  },
+                  {
+                      "address":  "chc01q1pemas11.bb2qa.local",
+                      "port":  "22",
+                      "label":  "PuppetMaster2016",
+                      "BackColor":  "yellow",
+                      "ForeColor":  "black"
+                  },
+                  {
+                      "address":  "chc01q1ranchr01.bb2qa.local",
+                      "port":  "22",
+                      "label":  "rancher master",
+                      "BackColor":  "black",
+                      "ForeColor":  "white"
+                  }
+              ]
+}
